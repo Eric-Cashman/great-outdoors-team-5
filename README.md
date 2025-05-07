@@ -1,7 +1,7 @@
 # PoulNichols.github.io
  great-outdoors-team-5
 ## Eric Cashman
-## Khalid ShamsIT115
+## Khalid Shams IT115
 ### Practice in Class 4: Group Project Repository
 
 ## Contributors
