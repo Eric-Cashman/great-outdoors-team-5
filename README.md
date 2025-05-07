@@ -7,5 +7,5 @@
 ## Contributors
 
 - **Alina Denysenko** — Student developer interested in software engineering and cloud technologies.
-- **Khalidshams
-- **Eric Cashman
+- Khalidshams
+- Eric Cashman
