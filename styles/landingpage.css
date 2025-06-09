@@ -44,3 +44,11 @@ ul li a:hover {
 ul li:hover ul.dropdown {
     display: block;
 }
+
+
+body {
+  background: #2296a5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
