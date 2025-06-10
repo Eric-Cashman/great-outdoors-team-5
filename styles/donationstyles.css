@@ -20,35 +20,53 @@ body {
   flex: 1;
 }
 
-header {
-  background: #2f0642;
-  padding: 10px 0;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', monospace;
 }
 
-nav {
-  background: #3d690b;
-  padding: 10px 0;
-  text-align: center;
+ul {
+    list-style: none;
+    background: #138548;
 }
 
-nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
+ul li {
+    display: inline-block;
+    position: relative;
 }
 
-nav a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.2em;
-  font-weight: bold;
+ul li a {
+    display: block;
+    padding: 20px 25px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
 }
 
-nav a:hover {
-  text-decoration: underline;
+ul li ul.dropdown li {
+    display: block;
 }
+
+ul li ul.dropdown {
+    width: 100%;
+    background: #138548;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+
+ul li a:hover {
+    background: #138548;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
 
 .container {
   max-width: 500px;
