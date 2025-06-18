@@ -53,16 +53,34 @@ body {
   flex-direction: column;
 }
 
-.column {
-  float: left;
-  width: 25%;
-  padding: 1px;
+.container{
+  max-width: 700;
+  margin: 40px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 8px;
+  flex: 1;
 }
 
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
+h2{
+  text-align: center;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.events_info{
+  margin-bottom: 40px;
+}
+
+.events_info h3{
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.event_info p{
+  color: #000;
+  line-height: 1.6;
+  margin-bottom: 10px;
 }
 
 footer {
